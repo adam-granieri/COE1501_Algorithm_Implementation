@@ -1,0 +1,312 @@
+Adam Granieri
+COE 1501: Algorithm Implementation
+Project 2
+Fall 2018
+
+1 FILE - all.tar:
+	Original LZW
+		Original Size - 3,031,040 bytes
+		Compressed Size - 1,846,854 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.641
+	MyLZW.java in Do Nothing mode
+		Original Size - 3,031,040 bytes
+		Compressed Size - 1,792,782 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.691
+	MyLZW.java in Reset mode
+		Original Size - 3,031,040 bytes
+		Compressed Size - 1,178,221 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.573
+	MyLZW.java in Monitor mode
+		Original Size - 3,031,040 bytes
+		Compressed Size - 1,819,874 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.666
+	Microsoft Windows Zip Tool
+		Original Size - 3,031,040 bytes
+		Compressed Size - 980, 783 bytes
+		Compression Ratio (Original Size / Compressed Size) - 3.090
+------------------------------------------------
+2 FILE -  assig2.doc
+	Original LZW
+		Original Size - 87,040 bytes
+		Compressed Size - 74,574 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.167
+	MyLZW.java in Do Nothing mode
+		Original Size - 87,040 bytes
+		Compressed Size - 40,040 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.174
+	MyLZW.java in Reset mode
+		Original Size - 87,040 bytes
+		Compressed Size - 40,040 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.174
+	MyLZW.java in Monitor mode
+		Original Size - 87,040 bytes
+		Compressed Size - 40,040 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.174
+	Microsoft Windows Zip Tool
+		Original Size - 87,040 bytes
+		Compressed Size - 23,001 bytes
+		Compression Ratio (Original Size / Compressed Size) - 3.784
+------------------------------------------------
+3 FILE -  bmps.tar
+	Original LZW.java
+		Original Size - 1,105,920 bytes
+		Compressed Size - 925,079 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.195
+	MyLZW.java in Do Nothing mode
+		Original Size - 1,105,920 bytes
+		Compressed Size - 80,914 bytes
+		Compression Ratio (Original Size / Compressed Size) - 13.668
+	MyLZW.java in Reset mode
+		Original Size - 1,105,920 bytes
+		Compressed Size - 80,914 bytes
+		Compression Ratio (Original Size / Compressed Size) - 13.668
+	MyLZW.java in Monitor mode
+		Original Size - 1,105,920 bytes
+		Compressed Size - 80,914 bytes
+		Compression Ratio (Original Size / Compressed Size) - 13.668
+	Microsoft Windows Zip Tool
+		Original Size - 1,105,920 bytes
+		Compressed Size - 64,537 bytes
+		Compression Ratio (Original Size / Compressed Size) - 17.136
+------------------------------------------------
+4 FILE -  code2.txt
+	Original LZW
+		Original Size - 57,701 bytes
+		Compressed Size - 24,138 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.390
+	MyLZW.java in Do Nothing mode
+		Original Size - 57,701 bytes
+		Compressed Size - 20,516 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.812
+	MyLZW.java in Reset mode
+		Original Size - 57,701 bytes
+		Compressed Size - 20,516 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.812
+	MyLZW.java in Monitor mode
+		Original Size - 57,701 bytes
+		Compressed Size - 20,516 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.812
+	Microsoft Windows Zip Tool
+		Original Size - 57,701 bytes
+		Compressed Size - 13,860 bytes
+		Compression Ratio (Original Size / Compressed Size) - 4.163
+------------------------------------------------
+5 FILE -  code.txt
+	Original LZW
+		Original Size - 72,351 bytes
+		Compressed Size - 30,980 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.335
+	MyLZW.java in Do Nothing mode
+		Original Size - 72,351 bytes
+		Compressed Size - 24,545 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.948
+	MyLZW.java in Reset mode
+		Original Size - 72,351 bytes
+		Compressed Size - 24,545 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.948
+	MyLZW.java in Monitor mode
+		Original Size - 72,351 bytes
+		Compressed Size - 24,545 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.948
+	Microsoft Windows Zip Tool
+		Original Size - 72,351 bytes
+		Compressed Size - 15,668 bytes
+		Compression Ratio (Original Size / Compressed Size) - 4.618
+------------------------------------------------
+6 FILE -  edit.exe
+	Original LZW
+		Original Size - 236,328 bytes
+		Compressed Size - 250,742 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.943
+	MyLZW.java in Do Nothing mode
+		Original Size - 236,328 bytes
+		Compressed Size - 156,410 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.511
+	MyLZW.java in Reset mode
+		Original Size - 236,328 bytes
+		Compressed Size - 152,227 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.552
+	MyLZW.java in Monitor mode
+		Original Size - 236,328 bytes
+		Compressed Size - 156,410 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.511
+	Microsoft Windows Zip Tool
+		Original Size - 236,328 bytes
+		Compressed Size - 128,202 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.843
+------------------------------------------------
+7 FILE -  frosty.jpg
+	Original LZW
+		Original Size - 126,748 bytes
+		Compressed Size - 177,453 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.714
+	MyLZW.java in Do Nothing mode
+		Original Size - 126,748 bytes
+		Compressed Size - 163,790 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.774
+	MyLZW.java in Reset mode
+		Original Size - 126,748 bytes
+		Compressed Size - 171,170 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.740
+	MyLZW.java in Monitor mode
+		Original Size - 126,748 bytes
+		Compressed Size - 163,790 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.774
+	Microsoft Windows Zip Tool
+		Original Size - 126,748 bytes
+		Compressed Size - 126,750 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.999
+------------------------------------------------
+8 FILE -  gone_fishing.bmp
+	Original LZW
+		Original Size - 17,336 bytes
+		Compressed Size - 9,278 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.869
+	MyLZW.java in Do Nothing mode
+		Original Size - 17,336 bytes
+		Compressed Size - 8,963 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.934
+	MyLZW.java in Reset mode
+		Original Size - 17,336 bytes
+		Compressed Size - 8,963 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.934
+	MyLZW.java in Monitor mode
+		Original Size - 17,336 bytes
+		Compressed Size - 8,963 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.934
+	Microsoft Windows Zip Tool
+		Original Size - 17,336 bytes
+		Compressed Size - 8,791 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.972
+------------------------------------------------
+9 FILE -  large.txt
+	Original LZW
+		Original Size - 1,220,703 bytes
+		Compressed Size - 605,184 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.017
+	MyLZW.java in Do Nothing mode
+		Original Size - 1,220,703 bytes
+		Compressed Size - 501,778 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.433
+	MyLZW.java in Reset mode
+		Original Size - 1,220,703 bytes
+		Compressed Size - 527,506 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.314
+	MyLZW.java in Monitor mode
+		Original Size - 1,220,703 bytes
+		Compressed Size - 501,778 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.433
+	Microsoft Windows Zip Tool
+		Original Size - 1,220,703 bytes
+		Compressed Size - 501,923 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.432
+------------------------------------------------
+10 FILE -  Lego-big.gif
+	Original LZW
+		Original Size - 93,371 bytes
+		Compressed Size - 128,973 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.724
+	MyLZW.java in Do Nothing mode
+		Original Size - 93,371 bytes
+		Compressed Size - 122,494 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.762
+	MyLZW.java in Reset mode
+		Original Size - 93,371 bytes
+		Compressed Size - 122,494 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.762
+	MyLZW.java in Monitor mode
+		Original Size - 93,371 bytes
+		Compressed Size - 122,494 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.762
+	Microsoft Windows Zip Tool
+		Original Size - 93,371 bytes
+		Compressed Size - 92,571 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.009	
+------------------------------------------------
+11 FILE -  medium.txt
+	Original LZW
+		Original Size - 25,407 bytes
+		Compressed Size - 13,197 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.925
+	MyLZW.java in Do Nothing mode
+		Original Size - 25,407 bytes
+		Compressed Size - 12,531 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.028
+	MyLZW.java in Reset mode
+		Original Size - 25,407 bytes
+		Compressed Size - 12,531 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.028
+	MyLZW.java in Monitor mode
+		Original Size - 25,407 bytes
+		Compressed Size - 12,531 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.028
+	Microsoft Windows Zip Tool
+		Original Size - 25,407 bytes
+		Compressed Size - 12,228 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.078
+------------------------------------------------
+12 FILE -  texts.tar
+	Original LZW
+		Original Size - 1,382,400 bytes
+		Compressed Size - 1,012,179 bytes
+		Compression Ratio (Original Size / Compressed Size) - 1.366
+	MyLZW.java in Do Nothing mode
+		Original Size - 1,382,400 bytes
+		Compressed Size - 597,848 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.312
+	MyLZW.java in Reset mode
+		Original Size - 1,382,400 bytes
+		Compressed Size - 590,475 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.341
+	MyLZW.java in Monitor mode
+		Original Size - 1,382,400 bytes
+		Compressed Size - 597,848 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.312
+	Microsoft Windows Zip Tool
+		Original Size - 1,382,400 bytes
+		Compressed Size - 543,247 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.545
+------------------------------------------------
+13 FILE -  wacky.bmp
+	Original LZW
+		Original Size - 921,654 bytes
+		Compressed Size - 4,302 bytes
+		Compression Ratio (Original Size / Compressed Size) - 214.238
+	MyLZW.java in Do Nothing mode
+		Original Size - 921,654 bytes
+		Compressed Size - 3,952 bytes
+		Compression Ratio (Original Size / Compressed Size) - 233.212
+	MyLZW.java in Reset mode
+		Original Size - 921,654 bytes
+		Compressed Size - 3,952 bytes
+		Compression Ratio (Original Size / Compressed Size) - 233.212
+	MyLZW.java in Monitor mode
+		Original Size - 921,654 bytes
+		Compressed Size - 3,952 bytes
+		Compression Ratio (Original Size / Compressed Size) - 233.212
+	Microsoft Windows Zip Tool
+		Original Size - 921,654 bytes
+		Compressed Size - 3,282 bytes
+		Compression Ratio (Original Size / Compressed Size) - 280.820
+------------------------------------------------
+14 FILE -  winnt256.bmp
+	Original LZW
+		Original Size - 157,044 bytes
+		Compressed Size - 159,050 bytes
+		Compression Ratio (Original Size / Compressed Size) - 0.987
+	MyLZW.java in Do Nothing mode
+		Original Size - 157,044 bytes
+		Compressed Size - 62,932 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.495
+	MyLZW.java in Reset mode
+		Original Size - 157,044 bytes
+		Compressed Size - 62,932 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.495
+	MyLZW.java in Monitor mode
+		Original Size - 157,044 bytes
+		Compressed Size - 62,932 bytes
+		Compression Ratio (Original Size / Compressed Size) - 2.495
+	Microsoft Windows Zip Tool
+		Original Size - 157,044 bytes
+		Compressed Size - 50,180 bytes
+		Compression Ratio (Original Size / Compressed Size) - 3.130

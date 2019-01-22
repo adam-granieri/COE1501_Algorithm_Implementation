@@ -1,0 +1,13 @@
+In my implementation of the symbol table I used a De La Brandis (DLB)
+Trie with an ArrayList to store predictions and input.
+
+I chose the ArrayList since it was a pre-existing structure that
+allows in order data retreival and easy abstracted adding and
+resizing functionality over just an array or HashSet.  For example,
+When displaying the predictions to the console and making the outWord
+I only needed to iterate in order over the ArrayList and display it as
+such.  This minimized engineering effort and since the add is O(1),
+unless a resize is needed there is not a significant performance loss 
+for this implementation.
+
+As for the symbol table I implemented the DLB as shown in class.

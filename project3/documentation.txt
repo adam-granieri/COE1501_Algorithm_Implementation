@@ -1,0 +1,50 @@
+My approach:
+
+The core data structure was a heap adapted from the text, but with additional
+data structures for the indexability and city grouping.
+The most difficult part to design for was the indirection with
+the cities.  For the city indirection I chose to have 2 HashMap’s.
+The first HashMap was mapping integers to integers which just
+held indices for each element in the structure that took the
+street address, apartment number, and zip into a single string
+and then used java's built in java string hash function to generate
+an int.  Since we're using a string and those fields don't change
+it helps reduce the chance for collisions.  The HashMap gives us
+constant runtime for retrieval for the retrieval of the priority
+city item.  If an element is updated with a new price it checks to 
+see if the element was already the highest priority item.  If it 
+is the highest priority item and the value is higher than before then
+it checks to find the new highest priority element by looking through
+all the other elements. Otherwise it will remain the same priority.
+The second HashMap maps indices for the previous HashMap to a particular
+city.  This again gives us constant runtime for retrieval of a city with
+a given index.  The remove function is similar where it only does a 
+check for the new highest priority if the highest priority is removed.
+It does this for the city as well as the entire list. In general, my
+approach does a tradeoff of memory usage for runtime.  Maintaining
+the 2 HashMap’s does mean that for n elements I’m using up 2n space
+in memory.  Though I do get to maintain a constant runtime for
+retrievals.  Though this is in the worst case where every address
+is in one city or all of them are in separate cities.
+
+Ultimately, I believe this is the best given the requirements and
+resources available since we get constant runtime in the average
+case of retrievals of highest priority and logarithmic runtime
+for insert, update and removal in the average case for the queue.
+Only in the absolute worst case, which is unlikely, do we have 
+constant runtime for update and removal.
+
+Runtimes:
+
+-retrieve overall highest priority: O(1)
+-retrieve highest priority by city: O(1)
+-insert: O(log n)
+    This is because of the amortized cost of doubling the array when resizing
+-update: best: O(log n) avg: O(log n) worst: O(n) for prices
+-remove: best O(log n) avg: O(log n) worst: O(n) for prices
+
+Space:
+
+-2 priority queues for square footage and price
+    -2 HashMap’s for each priority queue, one for indirection and one for city indirection
+    -1 resizing array when full with a 2x resizing factor
