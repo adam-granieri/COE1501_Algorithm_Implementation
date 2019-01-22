@@ -1,0 +1,7 @@
+#large files and class that aren't needed
+*.pdf
+*.class
+**/info_sheet.txt
+
+#project zero was just setting up a repo
+project0/
